@@ -37,7 +37,11 @@ a {
   gap: 180px;
 }
 
+
 .enjoy__title {
+  background-image: url(../images/bg/bg\ bum.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-weight: 700;
   font-style: Bold;
   font-size: 50px;
