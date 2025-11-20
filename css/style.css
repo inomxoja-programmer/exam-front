@@ -13,7 +13,165 @@ a {
 }
 
 .container {
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  max-width: 1440px;
+}
+
+
+body {
+  margin: 0;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content__wrapper {
+  display: flex;
+  gap: 80px;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__section {
+  flex: 0 0 auto;
+  max-width: 50%;
+}
+
+.image-section img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.list__section {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.list__item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.number__circle {
+  width: 24px;
+  height: 24px;
+  background-color: #5937E0;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.text__content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text__content p {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .image-section {
+    max-width: 100%;
+  }
+}
+
+
+/*  */
+.obshiy {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  gap: 630px;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose {
+ margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: black;
+  font: Work Sans;
+  gap: 72px;
+  display: flex;
+}
+
+.view {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font: Work Sans;
+  margin-top: 64px;
+  display: flex;
+}
+
+.cards {
+  margin-right: 40px;
+  padding: 0;
+  align-items: start;
+  justify-content: center;
+}
+
+.mers__card {
+  margin: 0;
+  padding: 0;
+  width: 416px;
+  height: 513px;
+  border-radius: 20px;
+  background: #FAFAFA;
+}
+
+.shadow {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.shad {
+  margin-right: 40px;
+  padding: 0;
+  gap: 24px;
+  display: flex;
+ font-size: 24px;
+}
+
+.dollar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 24px;
+  color: #5937E0;
+  display: flex;
+  margin-top: 209px;
+}
+
+.dollar__mers {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
 }
