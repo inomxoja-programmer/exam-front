@@ -26,20 +26,6 @@ a {
   max-width: 1440px;
 }
 
-<<<<<<< HEAD
-
-body {
-  margin: 0;
-  font-weight: 700;
-  font-family: Arial, sans-serif;
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .content__wrapper {
   display: flex;
   gap: 80px;
@@ -74,7 +60,7 @@ body {
 .number__circle {
   width: 24px;
   height: 24px;
-  background-color: #5937E0;
+  background-color: #5937e0;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -107,7 +93,6 @@ body {
   }
 }
 
-
 /*  */
 .obshiy {
   margin: 0 auto;
@@ -119,7 +104,7 @@ body {
 }
 
 .choose {
- margin: 0;
+  margin: 0;
   padding: 0;
   font-size: 50px;
   color: black;
@@ -150,7 +135,7 @@ body {
   width: 416px;
   height: 513px;
   border-radius: 20px;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 .shadow {
@@ -165,7 +150,7 @@ body {
   padding: 0;
   gap: 24px;
   display: flex;
- font-size: 24px;
+  font-size: 24px;
 }
 
 .dollar {
@@ -173,7 +158,7 @@ body {
   padding: 0;
   display: flex;
   font-size: 24px;
-  color: #5937E0;
+  color: #5937e0;
   display: flex;
   margin-top: 209px;
 }
@@ -182,9 +167,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-
 }
-=======
 /* shadow section */
 
 .shadow__container {
@@ -470,4 +453,3 @@ body {
   flex-direction: column;
   gap: 24px;
 }
->>>>>>> 2526e9fd1a2efed69d8b81e7d62d889deb6acc39
