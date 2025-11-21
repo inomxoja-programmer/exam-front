@@ -610,3 +610,142 @@ a {
   flex-direction: column;
   gap: 24px;
 }
+
+/* FACTS SECTION */
+.facts {
+  background: #5a2ff2;
+  padding: 90px 40px;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  width: 85%;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* LEFT SHAPE BACKGROUND */
+.shape-bg {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 260px;
+  opacity: 0.15;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* CAR BACKGROUND CENTER */
+.car-bg {
+  position: absolute;
+  margin-bottom:-100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  opacity: 0.25;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* CONTENT ABOVE IMAGES */
+.facts h2, 
+.fact-text, 
+.facts-grid {
+  position: relative;
+  z-index: 5;
+}
+
+.facts h2 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.fact-text {
+  max-width: 600px;
+  margin: 15px auto 40px;
+  opacity: 0.9;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.fact-box {
+  width: 240px;
+  height: 100px;
+  background: white;
+  color: black;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fact-box .icon img {
+  width: 72px;
+  height: 68px;
+}
+
+.fact-info h3 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.fact-info span {
+  font-size: 14px;
+  color: #444;
+}
+
+/* DOWNLOAD SECTION */
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 80px auto;
+  gap: 40px;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.left p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.stores img {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.right {
+  left:50px;
+  width: 50%;
+  position: relative;
+}
+
+.phone {
+  
+  left: 50px;
+}
+
+.phone2 {
+  position: absolute;
+left:-150px;
+  top: 60px;
+}
