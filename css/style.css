@@ -518,6 +518,7 @@ a {
   letter-spacing: 0%;
   color: #6c757d;
   border: none;
+  outline: none;
   /* padding: 21px 407px 20px 25px; */
 }
 
@@ -549,14 +550,16 @@ a {
 .footer__0one {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 60px;
+  gap: 90px;
 }
 
 .footer__box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 158.67px;
 }
 
 .hamBox {
