@@ -34,8 +34,22 @@ a {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 37px;
+  margin-top: 37px;
 }
 
+.nav__flex__item {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  transition: 0.3s ease;
+  color: black;
+}
+
+.nav__flex__item:hover {
+  font-weight: 700;
+}
 .writes {
   display: flex;
   gap: 32px;
@@ -459,7 +473,13 @@ a {
   border-radius: 12px;
   border: none;
   background-color: #5937e0;
+
 }
+.shadow__card__btn:hover {
+  cursor: pointer;
+}
+
+
 /* enjoy section */
 
 .enjoy__container {
@@ -641,7 +661,7 @@ a {
 /* CAR BACKGROUND CENTER */
 .car-bg {
   position: absolute;
-  margin-bottom:-100px;
+  margin-bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
   width: 75%;
@@ -651,8 +671,8 @@ a {
 }
 
 /* CONTENT ABOVE IMAGES */
-.facts h2, 
-.fact-text, 
+.facts h2,
+.fact-text,
 .facts-grid {
   position: relative;
   z-index: 5;
@@ -684,7 +704,7 @@ a {
   color: black;
   padding: 20px 10px;
   border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 
   display: flex;
   align-items: center;
@@ -737,18 +757,17 @@ a {
 }
 
 .right {
-  left:50px;
+  left: 50px;
   width: 50%;
   position: relative;
 }
 
 .phone {
-  
   left: 50px;
 }
 
 .phone2 {
   position: absolute;
-left:-150px;
+  left: -150px;
   top: 60px;
 }
