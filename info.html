@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Rental</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="./images/icons/car yellow.svg" />
+    <title>Info section</title>
+    <link rel="stylesheet" href="./css/info.css" />
+    <link rel="icon" href="./images/logo/car logo/Audi.svg" />
   </head>
   <body>
+    <!-- header -->
     <header>
       <div class="nav-flex container">
-        <img src="./images/logo/Logo.svg" alt="" /> 
+        <img src="./images/logo/Logo.svg" alt="" />
         <ul class="writes">
           <li class="nav__flex__item">Home</li>
-          <li class=""><a href="./carCard.html" class="nav__flex__item">Vehicles</a></li>
+          <li class="nav__flex__item">Vehicles</li>
           <li class="nav__flex__item">Details</li>
           <li class="nav__flex__item">About Us</li>
           <li class="nav__flex__item">Contact Us</li>
@@ -21,142 +22,109 @@
         <img src="./images/icons/Icons call.svg" alt="" class="callimage" />
       </div>
     </header>
-    <!-- MAIN -->
-     
+
+    <!-- main -->
     <main>
-      <div class="hero-section container">
-        <div class="hero-left">
-          <h1 class="h1bot">Experience the road<br />like never before</h1>
-
-          <p>
-            Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor
-            tristique et gravida. Quis nunc interdum gravida ullamcorper
-          </p>
-
-          <button class="view-btn">View all cars</button>
-        </div>
-
-        <div class="hero-right">
-          <h2>Book your car</h2>
-
-          <div class="form-box">
-            <select>
-              <option>Car type</option>
-            </select>
-
-            <select>
-              <option>Place of rental</option>
-            </select>
-
-            <select>
-              <option>Place of return</option>
-            </select>
-
-            <input type="date" placeholder="Rental date" />
-            <input type="date" placeholder="Return date" />
-
-            <button class="book-btn">Book now</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="features-section container">
-        <div class="feature-box">
-          <img src="./images/icons/location.svg" alt="icon" />
-          <h3>Availability</h3>
-          <p>
-            Diam tincidunt tincidunt erat at semper fermentum. Id ultricies quis
-          </p>
-        </div>
-
-        <div class="feature-box">
-          <img src="./images/icons/car.svg" alt="icon" />
-          <h3>Comfort</h3>
-          <p>
-            Gravida auctor fermentum morbi vulputate ac egestas orci etium
-            convallis
-          </p>
-        </div>
-
-        <div class="feature-box">
-          <img src="./images/icons/pocket.svg" alt="icon" />
-          <h3>Savings</h3>
-          <p>
-            Pretium convallis id diam sed commodo vestibulum lobortis volutpat
-          </p>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="content__wrapper">
-          <div class="image__section">
-            <img src="./images/images/bmw car.png" alt="" />
-          </div>
-
-          <div class="list__section">
-            <div class="list__item">
-              <div class="number__circle">1</div>
-              <div class="text__content">
-                <h3>Erat at semper</h3>
-                <p>
-                  Non amet fermentum est in enim at sit ullamcorper. Sit
-                  elementum
-                  <br />
-                  rhoncus nullam feugiat. Risus sem fermentum...
-                </p>
+      <section class="car__info">
+        <div class="container">
+          <div class="infoBox">
+            <div class="info__leftBox">
+              <h2 class="info__leftBox__title">BMW</h2>
+              <h3 class="info__leftBox__cost">
+                $25 <span class="marked__text">/ day</span>
+              </h3>
+              <img
+                src="./images/images/bmw car shadow.png"
+                alt=""
+                class="info__leftBox__img"
+              />
+              <div class="info__leftBox__bottom">
+                <img src="./images/images/xira1.png" alt="" class="xira__img" />
+                <img src="./images/images/xira2.png" alt="" class="xira__img" />
+                <img src="./images/images/xira3.png" alt="" class="xira__img" />
               </div>
             </div>
-
-            <div class="list__item">
-              <div class="number__circle">2</div>
-              <div class="text__content">
-                <h3>Urna nec vivamus risus duis arcu</h3>
-                <p>
-                  Aliquam adipiscing velit semper morbi. Purus non eu cursus
-                  porttitor <br />
-                  tristique et gravida. Quis nunc interdum gravida ullamcorper
-                </p>
+            <div class="info__rightBox">
+              <h2 class="info__rightBox__title">Technical Specification</h2>
+              <div class="info__right__cardBox">
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/skorost.svg" alt="" />
+                  <p class="info__right__cardBox_text">Gear Box</p>
+                  <p class="info__right__cardBox_parag">Automat</p>
+                </div>
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/petrol.svg" alt="" />
+                  <p class="info__right__cardBox_text">Fuel</p>
+                  <p class="info__right__cardBox_parag">Petrol</p>
+                </div>
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/door.svg" alt="" />
+                  <p class="info__right__cardBox_text">Doors</p>
+                  <p class="info__right__cardBox_parag">2</p>
+                </div>
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/snow.svg" alt="" />
+                  <p class="info__right__cardBox_text">Air Conditioner</p>
+                  <p class="info__right__cardBox_parag">Yes</p>
+                </div>
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/seats.svg" alt="" />
+                  <p class="info__right__cardBox_text">Seats</p>
+                  <p class="info__right__cardBox_parag">5</p>
+                </div>
+                <div class="info__rightBox__card">
+                  <img src="./images/icons/probega.svg" alt="" />
+                  <p class="info__right__cardBox_text">Distance</p>
+                  <p class="info__right__cardBox_parag">500</p>
+                </div>
               </div>
+              <a href="" class="info__rightBox__btn">Rent a car</a>
+              <h3 class="info__rightBottom__title">Car Equipment</h3>
+              <div class="info__rightBox__bottom">
+                <div class="abc__box">
+                    <img src="./images/icons/ptichka.svg" alt="">
+                    <p class="abc__box__title">ABS</p>
+                </div>
+                <div class="abc__box">
+                   <img src="./images/icons/ptichka.svg" alt="">
+                   <p class="abc__box__title">ABS</p>
+               </div>
             </div>
-
-            <div class="list__item">
-              <div class="number__circle">3</div>
-              <div class="text__content">
-                <h3>Lobortis euismod imperdiet tempus</h3>
-                <p>
-                  Viverra scelerisque mauris et nullam molestie et. Augue
-                  adipiscing <br />
-                  praesent nisl cras nunc luctus viverra nisi
-                </p>
-              </div>
+            <div class="info__rightBox__bottom">
+                <div class="abc__box">
+                   <img src="./images/icons/ptichka.svg" alt="">
+                   <p class="abc__box__title">Air Bags</p>
+               </div>
+                <div class="abc__box">
+                   <img src="./images/icons/ptichka.svg" alt="">
+                   <p class="abc__box__title">Air Bags</p>
+               </div>
             </div>
-
-            <div class="list__item">
-              <div class="number__circle">4</div>
-              <div class="text__content">
-                <h3>Cras nulla aliquet nam eleifend amet et</h3>
-                <p>
-                  Aliquam adipiscing velit semper morbi. Purus non eu cursus
-                  porttitor <br />
-                  tristique et gravida. Quis nunc interdum gravida ullamcorper
-                  sed br integer. Quisque eleifend tincidunt vulputate libero
-                </p>
-              </div>
+                <div class="info__rightBox__bottom">
+                    <div class="abc__box">
+                       <img src="./images/icons/ptichka.svg" alt="">
+                       <p class="abc__box__title">Cruise Control</p>
+                   </div>
+                    <div class="abc__box">
+                       <img src="./images/icons/ptichka.svg" alt="">
+                       <p class="abc__box__title">Cruise Control</p>
+                   </div>
+                </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- car card sections -->
-      <section class="shadow">
-        <div class="container shadow__container">
-          <div class="shadow__top">
-            <h1 class="shadow__title">Choose the car that <br />suits you</h1>
+      <!-- Card section -->
+       <section class="cards">
+        <div class="container">
+            <div class="shadow__top">
+            <h1 class="shadow__title">Other cars</h1>
             <a href="#" class="shadow__top__Link">View All→</a>
           </div>
-          <!-- Cardbox -->
-          <div class="shadow__card__box">
-            <!-- card -->
+
+            <div class="shadow__card__box">
+                           <!-- card -->
             <div class="shadow__card">
               <img
                 src="./images/images/car shadow.png"
@@ -198,7 +166,7 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
             <div class="shadow__card">
@@ -223,7 +191,7 @@
                       alt=""
                       class="shadow__card__xusuImg"
                     />
-                    <p class="shadow__card__xususText">Automat</p>
+                    <p class="shadow__card__xususText">Manual</p>
                   </div>
                   <div class="shadow__card__xususBox">
                     <img
@@ -242,7 +210,7 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
 
@@ -287,7 +255,7 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
 
@@ -332,7 +300,7 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
 
@@ -358,7 +326,7 @@
                       alt=""
                       class="shadow__card__xusuImg"
                     />
-                    <p class="shadow__card__xususText">Automat</p>
+                    <p class="shadow__card__xususText">Manual</p>
                   </div>
                   <div class="shadow__card__xususBox">
                     <img
@@ -377,7 +345,7 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
 
@@ -422,113 +390,12 @@
                     <p class="shadow__card__xususText">Air Conditioner</p>
                   </div>
                 </div>
-                <button class="shadow__card__btn">View Details</button>
+                <a href="" class="shadow__card__btn">View Details</a>
               </div>
             </div>
-          </div>
+            </div>
         </div>
-      </section>
-
-      <!-- Facts Section -->
-      <section class="">
-        <div class="container facts">
-          <h2>Facts In Numbers</h2>
-          <p class="fact-text">
-            Amet cras hac orci iaculis. Faucibus ipsum arcu lectus nibh sapien
-            bibendum ullamcorper in. Diam tincidunt tincidunt erat et semper
-            fermentum
-          </p>
-
-          <div class="facts-grid">
-            <div class="fact-box">
-              <div class="icon">
-                <img src="./images/icons/car yellow.svg" />
-              </div>
-              <div class="fact-info">
-                <h3>540+</h3>
-                <span>Cars</span>
-              </div>
-            </div>
-
-            <div class="fact-box">
-              <div class="icon"><img src="./images/icons/men heart.svg" /></div>
-              <div class="fact-info">
-                <h3>20k+</h3>
-                <span>Customers</span>
-              </div>
-            </div>
-
-            <div class="fact-box">
-              <div class="icon"><img src="./images/icons/date.svg" /></div>
-              <div class="fact-info">
-                <h3>25+</h3>
-                <span>Years</span>
-              </div>
-            </div>
-
-            <div class="fact-box">
-              <div class="icon"><img src="./images/icons/sekund.svg" /></div>
-              <div class="fact-info">
-                <h3>20m+</h3>
-                <span>Miles</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="container">
-        <!-- Download App Section -->
-        <section class="download">
-          <div class="left">
-            <h2>Download<br />mobile app</h2>
-            <p>
-              Imperdiet ut tristique viverra nunc. Ultrices orci vel auctor
-              cursus <br />
-              turpis nibh placerat massa. Fermentum urna ut at et in. <br />
-              aliquet cras hendrerit enim condimentum. Condimentum interdum
-              <br />
-              risus bibendum urna
-            </p>
-
-            <div class="stores">
-              <img src="./images/icons/App Store.svg" width="150" />
-              <img src="./images/icons/google play.svg" width="160" />
-            </div>
-          </div>
-
-          <div class="right">
-            <img src="./images/images/iphone.svg" class="phone" />
-            <img src="./images/images/iphone.svg" class="phone phone2" />
-          </div>
-        </section>
-      </div>
-
-      <!-- <==Enjoy Section==> -->
-      <section class="enjoy">
-        <div class="container enjoy__container">
-          <!-- left -->
-          <div class="enjoy__left">
-            <h1 class="enjoy__title">
-              Enjoy every mile with <br />
-              adorable companionship.
-            </h1>
-            <p class="enjoy__text">
-              Amet cras hac orci lacus. Faucibus ipsum arcu lectus nibh sapien
-              <br />
-              bibendum ullamcorper in. Diam tincidunt tincidunt erat
-            </p>
-            <div class="enjoy__form">
-              <input type="text   " placeholder="City" class="enjoy__input" />
-              <button class="enjoy__input__btn" type="reset">Search</button>
-            </div>
-          </div>
-          <!-- right -->
-          <div class="enjoy__right">
-            <img src="./images/bg/car face.svg" alt="" />
-          </div>
-        </div>
-      </section>
+       </section>
     </main>
 
     <!-- footer -->
@@ -615,6 +482,7 @@
             </div>
           </div>
         </div>
+        <p class="footer__guru"> © Copyright Car Rental  2024. Design by Figma. guru</p>
       </div>
     </footer>
   </body>
